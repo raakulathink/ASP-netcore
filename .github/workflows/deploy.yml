@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ASP-app
-          path: '/published/**'
+          path: 'myapp'
 
   deploy:
     runs-on: windows-latest
